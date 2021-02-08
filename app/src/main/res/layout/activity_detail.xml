@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextViewKet"
+        android:text="Nama" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_nama"
+        style="@style/TextViewValue"
+        android:text="Adit" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextViewKet"
+        android:text="No HP" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_nohp"
+        style="@style/TextViewValue"
+        android:text="08123453" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextViewKet"
+        android:text="Gender" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_gender"
+        style="@style/TextViewValue"
+        android:text="Pria" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextViewKet"
+        android:text="jenjang" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_jenjang"
+        style="@style/TextViewValue"
+        android:text="SMA" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextViewKet"
+        android:text="hobi" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_hobi"
+        style="@style/TextViewValue"
+        android:text="Membaca" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextViewKet"
+        android:text="Alamat" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_alamat"
+        style="@style/TextViewValue"
+        android:text="Jateng" />
+
+</LinearLayout>

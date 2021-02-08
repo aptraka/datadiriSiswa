@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Datadiri Siswa</string>
+
+    <string-array name="jenjang">
+        <item>TK</item>
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+        <item>SMK</item>
+    </string-array>
+</resources>
